@@ -24,7 +24,7 @@ if __name__ == "__main__":
     elif guess > value:
       print("Le nombre à trouver est plus petit")
     else:
-      print("Le nombre à trouver est plus petit")
+      print("Le nombre à trouver est plus grand")
     n += 1
 
   print("Trouvé en", n, "essais")
